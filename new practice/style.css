@@ -1,0 +1,239 @@
+/*section 1*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 80px;
+    width: 99vw;
+    background-color: black;
+    display: flex;
+    position: fixed;
+}
+
+.imag img {
+    height: 50px;
+    width: 140px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.btn button {
+    cursor: pointer;
+    margin-top: 35px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    margin-left: 20px;
+    font-family: arial;
+    font-size: 12px;
+    position: fixed;
+}
+
+.icn {
+    margin-top: 30px;
+    transition: 0.s;
+    margin-left: 50%;
+    overflow: hidden;
+}
+
+.icn i:hover {
+    color: red;
+}
+
+.icn2 i:hover {
+    color: red;
+}
+
+.icn i {
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+.icn2 i {
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.icn2 {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+
+
+/* section 3 */
+.main3 {
+    height: 100px;
+    width: 99vw;
+    background-color: black;
+}
+
+.btn2 {
+    height: 50px;
+    width: 50px;
+    margin-left: 1200px;
+    margin-top: -40px;
+}
+
+.btn2 button {
+    padding-top: 5px;
+    padding-left: 20px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+.btn button {
+    transition: 0.8s;
+}
+
+.btn button:hover {
+    background-color: red;
+    padding: 10px;
+}
+
+/* section 4 */
+
+.main4 button {
+    cursor: pointer;
+    transition: 0.8s;
+    overflow: hidden;
+}
+
+.main4 button:hover {
+    color: white;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.mn1 {
+    height: 450px;
+    width: 305px;
+    background-color: whitesmoke;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.mn1 img {
+    width: 305px;
+    cursor: pointer;
+}
+
+.man {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+/* section 5 */
+
+.main6 {
+    height: 200px;
+}
+
+.d1 img {
+    width: 99vw;
+}
+
+/* section 6 */
+.poli {
+    height: 210px;
+    width: 99vw;
+    background-color: black;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    margin-top: 20px;
+
+}
+
+.poli span,
+p,
+b {
+    color: white;
+    margin-top: 40px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.p1 span {
+    font-family: arial;
+    font-size: 12px;
+}
+
+.p1 span:hover {
+    color: red;
+}
+
+
+@media (max-width:600px) {
+    .main {
+        background-color: black;
+        width: 120vw;
+    }
+
+    .imag {
+        height: 10vw;
+        width: 5vw;
+    }
+
+    .btn {
+        height: 5vw;
+        width: 5vw;
+        display: none;
+    }
+
+    .icn {
+        display: none;
+
+    }
+
+    .icn2 {
+        height: 5px;
+        display: flex;
+        font-size: 5px;
+        margin-left: 115px;
+        width: 5px;
+    }
+
+    .main3 {
+
+        width: 120vw;
+    }
+
+    .btn2 {
+        height: 10px;
+        width: 10px;
+    }
+
+    .mn1 {
+        margin-left: 8px;
+    }
+}
+
+@media (max-width:600px) {
+    .d1 img {
+        height: 120px;
+        width: 100vw;
+    }
+
+    .poli {
+        height: 200px;
+        margin-top: -100px;
+    }
+
+    .poli span {
+        font-size: 12px;
+
+    }
+}
